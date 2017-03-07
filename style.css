@@ -1,1 +1,26 @@
+.section-title {
+  color: blue;
+  background-color: #d6e2ed;
+}
 
+.element-color {
+  color: coral;
+}
+
+.element-in-text {
+  color: coral;
+  background-color: #d6e2ed;
+}
+
+.headings {
+  color: grey;
+  font-family: sans-serif;
+}
+
+.class-name {
+  color: blue;
+}
+
+.class {
+  color: green;
+}
