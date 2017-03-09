@@ -4,6 +4,14 @@ p {
   margin-bottom: 10px;
 }
 
+address {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 7px;
+  font-style: normal;
+  font-family: sans-serif;
+}
+
 .section-title {
   color: blue;
   background-color: #d6e2ed;
@@ -35,4 +43,8 @@ p {
   font-family: sans-serif;
   font-size: 16px;
   font-weight: lighter;
+}
+
+.tab {
+  margin-left: 40px;
 }
