@@ -13,7 +13,8 @@
       <p>To style headings in various sizes, add the
         <code class="class-name">.headings</code> class to your
         <code class="element-in-text">&lt;h1&gt;</code> through
-        <code class="element-in-text">&lt;h6&gt;</code> tags.</p>
+        <code class="element-in-text">&lt;h6&gt;</code> tags.
+      </p>
       </div>
 
       <div class="sample-text">
@@ -91,13 +92,13 @@
         <h1 class="section-title">Body copy</h1>
 
         <div class="breakdown">
-          <p>Vast CSS global default <!--
-         --><code class="element-in-text">font-size</code> is <!--
-         --><b>13px</b>, with a <!--
-         --><code class="element-in-text">line-height</code> of<!--
-         --><b> 1.5</b>. This is applied to the <!--
-         --><code class="element-in-text">&lt;body&gt;</code> and all paragraphs. Including, <!--
-         --><code class="element-in-text">&lt;p&gt;</code> (paragraphs) receive a bottom margin of 10px.
+          <p>Vast CSS global default
+            <code class="element-in-text">font-size</code> is
+            <b>13px</b>, with a
+            <code class="element-in-text">line-height</code> of
+            <b> 1.5</b>. This is applied to the
+            <code class="element-in-text">&lt;body&gt;</code> and all paragraphs. Including,
+            <code class="element-in-text">&lt;p&gt;</code> (paragraphs) receive a bottom margin of 10px.
           </p>
         </div>
 
@@ -128,14 +129,70 @@
         </div>
 
         <div class="sample-code">
-          <p>
-            <span class="element-color">&lt;p</span>
-            <span class="class">class=</span><!--
-         --><span class="class-name">"lead"</span><!--
+          <code>
+            <p>
+              <span class="element-color">&lt;p</span>
+              <span class="class">class=</span><!--
+           --><span class="class-name">"lead"</span><!--
+           --><span class="element-color">&gt;</span><!--
+           -->...<!--
+           --><span class="element-color">&lt;/p&gt;</span>
+            </p>
+          </code>
+        </div>
+      </header>
+
+      <header id="address">
+        <h1 class="section-title">Addresses</h1>
+
+        <div class="breakdown">
+          <p>Present contact information in our default style by using the <code class="element-in-text">&lt;address&gt;</code> tag. Preserve your formatting by ending all lines with <code class="element-in-text">&lt;br&gt;</code>.</p>
+        </div>
+
+        <div class="sample-text">
+          <address>
+            <strong>Learners Guild</strong><br>
+            492 Ninth Street (Garden Level)<br>
+            Oakland, CA 94607<br>
+            <abbr title="Phone">P:</abbr> (123) 456-7890
+          </address>
+
+          <address>
+            <strong>Full Name</strong><br>
+            <a href="mailto:#">first.last@example.com</a>
+          </address>
+        </div>
+
+        <div class="sample-code">
+          <code>
+            <span class="element-color">&lt;address&gt;</span><br>
+            <span class="tab element-color">&lt;strong&gt;</span><!--
+         -->Learners Guild<!--
+         --><span class="element-color">&lt;/strong&gt;&lt;br&gt;</span><br>
+            <span class="tab">492 Ninth Street (Garden Level)</span><!--
+         --><span class="element-color">&lt;br&gt;</span><br>
+            <span class="tab">Oakland, CA 94607</span><!--
+         --><span class="element-color">&lt;br&gt;</span><br>
+            <span class="tab element-color">&lt;abbr</span>
+            <span class="class">title=</span><!--
+         --><span class="class-name">"Phone"</span><!--
          --><span class="element-color">&gt;</span><!--
-         -->...<!--
-         --><span class="element-color">&lt;/p&gt;</span>    
-          </p>
+         -->P:<!--
+         --><span class="element-color">&lt;/abbr&gt;</span>
+            (123) 456-7890<br>
+            <span class="element-color">&lt;/address&gt;</span><br><br>
+            <span class="element-color">&lt;address&gt;</span><br>
+            <span class="tab element-color">&lt;strong&gt;</span><!--
+         -->Full Name<!--
+         --><span class="element-color">&lt;/strong&gt;&lt;br&gt;</span><br>
+            <span class="tab element-color">&lt;a</span>
+            <span class="class">href=</span><!--
+         --><span class="class-name">"mailto:#"</span><!--
+         --><span class="element-color">&gt;</span><!--
+         -->first.last@example.com<!--
+         --><span class="element-color">&lt;/a&gt;</span><br>
+            <span class="element-color">&lt;/address&gt;</span>
+          </code>
         </div>
       </header>
 </body>
