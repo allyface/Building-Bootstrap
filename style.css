@@ -1,7 +1,60 @@
+body {
+  margin: 0px;
+  background-color: #f6e5d7;
+  background-image: url("https://www.transparenttextures.com/patterns/tileable-wood.png");
+}
+
+#main-header {
+  background-color: #f78671;
+  color: #f6e5d7;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+#main-header h1 {
+  font-size: 55px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#main-header h6 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 30px;
+}
+
+#headings-section {
+  margin-top: 200px;
+  background-color: rgba(246, 299, 215, 0.3);
+}
+
+#body-copy {
+  background-color: rgba(246, 299, 215, 0.3);
+}
+
+#address {
+  background-color: rgba(246, 299, 215, 0.3);
+}
+
+#blockquotes {
+  background-color: rgba(246, 299, 215, 0.3);
+}
+
+#buttons {
+  background-color: rgba(246, 299, 215, 0.3);
+}
+
 p {
-  font-size: 13px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
   line-height: 1.5;
   margin-bottom: 10px;
+}
+
+code {
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 address {
@@ -9,11 +62,11 @@ address {
   line-height: 1.5;
   margin-bottom: 7px;
   font-style: normal;
-  font-family: sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 blockquote {
-  font-family: sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 75%;
   margin: 0 0 20px;
   padding: 10px 20px;
@@ -21,38 +74,60 @@ blockquote {
 }
 
 .section-title {
-  color: blue;
-  background-color: #d6e2ed;
+  font-family: 'Raleway', sans-serif;
+  color: #2f3733;
+  background-color: #86baaa;
+  text-align: center;
+}
+
+.breakdown {
+
 }
 
 .element-color {
-  color: coral;
+  color: #6b9488;
 }
 
 .element-in-text {
-  color: coral;
-  background-color: #d6e2ed;
-}
-
-.headings {
-  color: grey;
-  font-family: sans-serif;
+  color: #6b9488;
+  background-color: #d9dfda;
 }
 
 .class-name {
-  color: blue;
+  color: #f78671;
 }
 
 .class {
-  color: green;
+  color: #c9d2cb;
 }
 
-.lead {
-  font-family: sans-serif;
+
+.tab {
+  margin-left: 40px;
+}
+
+.vast-heading {
+  color: grey;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.vast-lead {
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 16px;
   font-weight: lighter;
 }
 
-.tab {
-  margin-left: 40px;
+.sample-code {
+  background-color: rgba(47, 55, 51, 1);
+  color: #f6e5d7;
+}
+
+button.vast-btn, input.vast-btn {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: coral;
+}
+
+a.vast-btn {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: purple;
 }
