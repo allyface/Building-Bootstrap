@@ -73,6 +73,14 @@ blockquote {
   border-left: 5px solid #e5fdfa;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;;
+  width: 1000px;
+  height: 300px;
+  background-color: lightgrey;
+}
+
 .section-title {
   font-family: 'Raleway', sans-serif;
   color: #2f3733;
@@ -107,14 +115,14 @@ blockquote {
 }
 
 .vast-heading {
-  color: grey;
+  color: #2f3733;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .vast-lead {
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 16px;
-  font-weight: lighter;
+  font-size: 27px;
+  color: #828784;
 }
 
 .sample-code {
@@ -122,12 +130,28 @@ blockquote {
   color: #f6e5d7;
 }
 
+.sample-text {
+  font-size: 13px;
+
+}
+
+
 button.vast-btn, input.vast-btn {
-  font-family: 'Open Sans Condensed', sans-serif;
-  background-color: coral;
+  font-family: 'Raleway', sans-serif;
+  background-color: #f78671;
+  margin: 5px;
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  font-size: 23px;
+
+
+
 }
 
 a.vast-btn {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: purple;
+  font-family: 'Raleway', sans-serif;
+  font-size: 23px;
+  color: #6b9488;
+  padding-right: 5px;
 }
