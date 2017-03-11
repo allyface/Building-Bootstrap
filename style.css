@@ -4,8 +4,98 @@ body {
   background-image: url("https://www.transparenttextures.com/patterns/tileable-wood.png");
 }
 
+code {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
 .body-content {
   margin: 0px 100px 50px;
+}
+
+.sections {
+  border: 2px solid #2f3733;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.secondary-section {
+  margin-top: 20px;
+}
+
+.section-title {
+  font-family: 'Raleway', sans-serif;
+  color: #2f3733;
+  background-color: #86baaa;
+  text-align: center;
+  margin-top: 0px;
+  border-radius: 5px;
+}
+
+.breakdown {
+  padding: 0px 200px;
+}
+
+.flex-container.sample-text {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(201, 210, 203, 0.8);
+  margin-bottom: -20px;
+  padding: 5px 200px;
+}
+
+.flex-container.sample-text.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.sample-code {
+  background-color: rgba(47, 55, 51, 0.8);
+  color: #f6e5d7;
+  padding: 0px 200px 5px 200px;
+}
+
+.tab {
+  margin-left: 40px;
+}
+
+.element-color {
+  color: #6b9488;
+}
+
+.element-in-text {
+  color: #6b9488;
+  background-color: #d9dfda;
+}
+
+.class-name {
+  color: #f78671;
+}
+
+.class {
+  color: #c9d2cb;
+}
+
+#body-copy {
+  background-color: rgba(246, 299, 215, 0.3);
+}
+
+#address {
+  background-color: rgba(246, 299, 215, 0.3);
+}
+
+#blockquotes {
+  background-color: rgba(246, 299, 215, 0.3);
+}
+
+#buttons {
+  background-color: rgba(246, 299, 215, 0.3);
 }
 
 #main-header {
@@ -34,98 +124,6 @@ body {
 #headings-section {
   margin-top: 220px;
   background-color: rgba(246, 299, 215, 0.3);
-}
-
-#body-copy {
-  background-color: rgba(246, 299, 215, 0.3);
-}
-
-#address {
-  background-color: rgba(246, 299, 215, 0.3);
-}
-
-small, .small {
-  color: #6d7370;
-  font-size: 0.8em;
-}
-
-#blockquotes {
-  background-color: rgba(246, 299, 215, 0.3);
-}
-
-#buttons {
-  background-color: rgba(246, 299, 215, 0.3);
-}
-
-p {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 20px;
-  line-height: 1.5;
-  margin-bottom: 10px;
-}
-
-code {
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-
-address {
-  font-size: 20px;
-  line-height: 1.5;
-  margin-bottom: 7px;
-  font-style: normal;
-  font-family: 'Open Sans Condensed', sans-serif;
-}
-
-blockquote {
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 75%;
-  margin: 0 0 20px;
-  padding: 10px 20px;
-  border-left: 7px solid #f78671;
-}
-
-.flex-container.sample-text {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(201, 210, 203, 0.8);
-  margin-bottom: -20px;
-  padding: 5px 200px;
-}
-
-.flex-container.sample-text.buttons {
-  display: flex;
-  flex-direction: row;
-}
-
-.section-title {
-  font-family: 'Raleway', sans-serif;
-  color: #2f3733;
-  background-color: #86baaa;
-  text-align: center;
-  margin-top: 0px;
-  border-radius: 5px;
-}
-
-.element-color {
-  color: #6b9488;
-}
-
-.element-in-text {
-  color: #6b9488;
-  background-color: #d9dfda;
-}
-
-.class-name {
-  color: #f78671;
-}
-
-.class {
-  color: #c9d2cb;
-}
-
-
-.tab {
-  margin-left: 40px;
 }
 
 h1, .vast-h1 {
@@ -170,16 +168,31 @@ h6, .vast-h6 {
   font-size: .67em;
 }
 
+small, .small {
+  color: #6d7370;
+  font-size: 0.8em;
+}
+
 .vast-lead {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 27px;
   color: #828784;
 }
 
-.sample-code {
-  background-color: rgba(47, 55, 51, 0.8);
-  color: #f6e5d7;
-  padding: 0px 200px 5px 200px;
+address {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 7px;
+  font-style: normal;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+blockquote {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 75%;
+  margin: 0 0 20px;
+  padding: 10px 20px;
+  border-left: 7px solid #f78671;
 }
 
 button.vast-btn, input.vast-btn {
@@ -199,18 +212,4 @@ a {
   color: #6b9488;
   padding-right: 5px;
   padding-top: 15px;
-}
-
-.breakdown {
-  padding: 0px 200px;
-}
-
-.sections {
-  border: 2px solid #2f3733;
-  border-radius: 5px;
-  margin-top: 50px;
-}
-
-.secondary-section {
-  margin-top: 20px;
 }
